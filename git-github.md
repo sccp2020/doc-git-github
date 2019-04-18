@@ -36,7 +36,7 @@ Githubのユーザー登録の仕方について説明します。日本語ペ�
 
    | **items** |        **content**        |
    | :-------: | :-----------------------: |
-   | Username  | sXXXXXXX-苗字\|aaa\|aaa\| |
+   | Username  | sXXXXXXX-苗字 |
    |   Email   |   sXXXXXXX@u-aizu.ac.jp   |
    | Password  |           任意            |
 
@@ -55,18 +55,47 @@ Githubのユーザー登録の仕方について説明します。日本語ペ�
 ## SSH key 登録
 
 GitHubとのデータのやり取りでSSH公開鍵認証を使うために、GitHubにSSH公開鍵を登録します。
+1. ユーザー情報の**setting**をクリックしてください。
 ![](https://github.com/sccp2020/doc-git-github/blob/master/img/github-sshkey.png)
+
+2. **SSH and GCP Key** 項目をクリックすると鍵登録の項目が出てくるので**New SSH Key**をクリックしてください。
 ![](https://github.com/sccp2020/doc-git-github/blob/master/img/github-addssh.png)
 
-がっこで試さなきゃ
+3. ローカルでSSH公開鍵を作ります。
+```
+$ ssh-keygen -t rsa
 
-**あとでかく**
+<< 空Returnを押しまくる >>
+
+$ cd ~/.ssh
+
+$ cat id_rsa.pub
+ssh-rsa hkuhycdrkwAX49XkKVJg6wtZfERHCsrMjDHGUdCtdEF6kjHb8JyXyHPbRR6VzggBaK8AwT
+JKjQP2MhaWCBgZCciVXH2Lhfjz5rXXRf29JDt3JFPzzxSNuntYLp7YCCPUYMEhMuFfpesyQ3jdZxCZ
+SY6pfA5cXpwAYGC7GxZSrYRarwjWRYHfYFL2MUrcG2M3zjuPT3mDYHu4MR4u9rhFsBaXDXCCmCVTSJ
+WrfBi4JxQwGKf5GZfxSW4Hkkap6SVwZ8KRQRheadyTiJ7JNLsGnB77e3pLBBnnemi5rpJTf3s775ic
+wtX9Qtd6dieFnH9Ej9DJurL7Wj95WzaCLaEmUeN6bCk2T8K8QdHKPLFfAk== s1250XXX@sshsv171
+# ssh-rsaから後ろをコピーする
+```
+これを**key**にペーストします。
 
 ## git config
+Gitを使った操作には全てユーザー自身の責任が伴います。Gitに今コマンド操作やファイルの編集をしているユーザーが誰なのかを教えるために、ユーザー情報をgit configコマンドを使って設定しましょう。`user.name`と`user.email`はさっきGitHubに登録したものです！
 
-かかなkya
+|item|content|
+|user.name| sXXXXXXX-苗字 |
+|user.email| sXXXXXXX@u-aizu.ac.jp|
+|core.editor|emacs|
 
+```
+$ git config --global user.name "sXXXXXXX-◯◯"
 
+$ git config --global user.email "sXXXXXXX@u-aizu.ac.jp"
+
+$ git config --global core.editor "emacs"
+```
+
+## お疲れ様でした。これであなたの環境でGitHubが使えるようになりました！
 
 ## 使い方
 

@@ -40,21 +40,23 @@ Githubのユーザー登録の仕方について説明します。日本語ペ�
    |   Email   |   sXXXXXXX@u-aizu.ac.jp   |
    | Password  |           任意            |
 
-   ![](/Users/schktjm/Desktop/スクリーンショット 2019-04-07 15.02.45.png)
+   ![](https://github.com/sccp2020/doc-git-github/blob/master/img/pushSignup.png)
 
-4. Githubの契約プランを選択する画面です。**free plan**にチェックをいれたまま次に行きましょう。 ![](/Users/schktjm/Desktop/スクリーンショット 2019-04-07 15.11.09.png)
+4. Githubの契約プランを選択する画面です。**free plan**にチェックをいれたまま次に行きましょう。 ![](https://github.com/sccp2020/doc-git-github/blob/master/img/selectCourse.png)
 
-5. アンケート画面です。スキップすることもできますが、該当する箇所をチェックして送信しましょう。![](/Users/schktjm/Desktop/スクリーンショット 2019-04-07 15.13.59.png)
+5. アンケート画面です。スキップすることもできますが、該当する箇所をチェックして送信しましょう。![](https://github.com/sccp2020/doc-git-github/blob/master/img/github-qestion.png)
 
-6. 仮登録が終わると、GitHubからメールが届きます。届いたメールを確認して、**Verify email address** をクリックして、メールアドレスの認証を完了させましょう。(tips: メールアプリを開くにはterminalで`sylpheed &`と打つとひらけます) ![](/Users/schktjm/Desktop/スクリーンショット 2019-04-07 15.25.12.png)
+6. 仮登録が終わると、GitHubからメールが届きます。届いたメールを確認して、**Verify email address** をクリックして、メールアドレスの認証を完了させましょう。(tips: メールアプリを開くにはterminalで`sylpheed &`と打つとひらけます) ![](https://github.com/sccp2020/doc-git-github/blob/master/img/github-mail-verify.png)
 
-7. 認証に成功すると、`Your email was verufied` と表示され、アカウントの登録が無事完了します。![](/Users/schktjm/Desktop/スクリーンショット 2019-04-07 15.26.14.png)
+7. 認証に成功すると、`Your email was verufied` と表示され、アカウントの登録が無事完了します。![](https://github.com/sccp2020/doc-git-github/blob/master/img/github-start.png)
 
-8. 右上のアイコンをクリックして、`Your profile` に飛びます。ユーザープロフィールページです。作成したリポジトリや、その他ユーザー情報、コントリビューションはここに表示されます。![](/Users/schktjm/Desktop/スクリーンショット 2019-04-07 15.30.56.png)
+8. 右上のアイコンをクリックして、`Your profile` に飛びます。ユーザープロフィールページです。作成したリポジトリや、その他ユーザー情報、コントリビューションはここに表示されます。![](https://github.com/sccp2020/doc-git-github/blob/master/img/github-home.png)
 
 ## SSH key 登録
 
 GitHubとのデータのやり取りでSSH公開鍵認証を使うために、GitHubにSSH公開鍵を登録します。
+![](https://github.com/sccp2020/doc-git-github/blob/master/img/github-sshkey.png)
+![](https://github.com/sccp2020/doc-git-github/blob/master/img/github-addssh.png)
 
 がっこで試さなきゃ
 
@@ -101,7 +103,7 @@ $ git init
 
 左上のアイコンをクリックして、`Your repositories` をクリックします。次のような画面になるので、`New`のボタンをクリックしましょう。
 
-![](/Users/schktjm/Desktop/スクリーンショット 2019-04-07 16.30.28.png)
+![](https://github.com/sccp2020/doc-git-github/blob/master/img/github-makeripo.png)
 
 
 
@@ -111,7 +113,7 @@ $ git init
 
 `DEscription` はこのリポジトリの簡単な説明です。空白でも大丈夫です。
 
-![](/Users/schktjm/Desktop/スクリーンショット 2019-04-07 16.32.31.png)
+![](https://github.com/sccp2020/doc-git-github/blob/master/img/github-copyURL.png)
 
 
 

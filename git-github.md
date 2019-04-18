@@ -30,7 +30,7 @@ Githubのユーザー登録の仕方について説明します。日本語ペ�
 
 1. https://github.com/ を開いてください。GitHubのトップページです。
 
-2. アカウントを作るために左上の `Sign up` をおしてください。![](../img/pushSignup.png)
+2. アカウントを作るために左上の `Sign up` をおしてください。![](https://github.com/sccp2020/doc-git-github/blob/master/img/pushSignup.png)
 
 3. ユーザー情報の登録画面が表示されます。この課外プロジェクトで作成するアカウントには、ac.jpのメールアドレスを使用してください。
 

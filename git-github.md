@@ -81,6 +81,7 @@ wtX9Qtd6dieFnH9Ej9DJurL7Wj95WzaCLaEmUeN6bCk2T8K8QdHKPLFfAk== s1250XXX@sshsv171
 Gitを使った操作には全てユーザー自身の責任が伴います。Gitに今コマンド操作やファイルの編集をしているユーザーが誰なのかを教えるために、ユーザー情報をgit configコマンドを使って設定しましょう。`user.name`と`user.email`はさっきGitHubに登録したものです！
 
 |item|content|
+|---|---|
 |user.name| sXXXXXXX-苗字 |
 |user.email| sXXXXXXX@u-aizu.ac.jp|
 |core.editor|emacs|

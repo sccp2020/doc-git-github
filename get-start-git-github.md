@@ -1,6 +1,4 @@
-[ ] Git / GitHub (`add`, `commit`, `push`, `branch`, `merge`) (by tjm)
-
-#Git / GitHub 使い方
+# Git / GitHub 使い方
 
 この記事では、個人開発でGitHubリポジトリをつくってバージョン管理ができるようになるまでを扱います。
 
@@ -14,7 +12,7 @@
 
 ## GitHub
 
- GitHubはその名の通り **「Git」の「ハブ：拠点・中心・集まり」**です。
+ GitHubはその名の通り **「Git」の「ハブ：拠点・中心・集まり」** です。
 
 GitHubはGitの仕組みを利用して、世界中の人々が自分の作品（プログラミングコードやデザインデータなど）を保存、公開できるようにしたWebサービスの名称です。
 
@@ -83,6 +81,7 @@ wtX9Qtd6dieFnH9Ej9DJurL7Wj95WzaCLaEmUeN6bCk2T8K8QdHKPLFfAk== s1250XXX@sshsv171
 Gitを使った操作には全てユーザー自身の責任が伴います。Gitに今コマンド操作やファイルの編集をしているユーザーが誰なのかを教えるために、ユーザー情報をgit configコマンドを使って設定しましょう。`user.name`と`user.email`はさっきGitHubに登録したものです！
 
 |item|content|
+|---|---|
 |user.name| sXXXXXXX-苗字 |
 |user.email| sXXXXXXX@u-aizu.ac.jp|
 |core.editor|emacs|

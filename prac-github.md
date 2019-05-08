@@ -37,3 +37,5 @@
 1. ブランチ名は、`s12XXXXX/hello` にすること。
 2. `helloworld.txt` を作る方法は何を使っても構わない。
 3. 一番初めの人以外は全員 `git pull` をしないと怒られるでしょう(理由は後で説明します)。
+
+![](https://i.imgur.com/OIlUNld.png)

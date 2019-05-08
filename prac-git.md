@@ -265,7 +265,7 @@ Fast-forward
 2. ファイルの編集はコマンドラインから行うこと。
 
 
-![](https://i.imgur.com/u0NdtMo.png)
+![](https://i.imgur.com/S25OC1k.png)
 
 今日の演習のイメージです！参考にしてください。
 

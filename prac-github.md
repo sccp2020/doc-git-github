@@ -87,11 +87,36 @@ $ git push origin master
 
 ### clone する
 
+Organization にある [prac-pr](https://github.com/sccp2020/prac_pr) というリポジトリを clone します。
+
+> **「clone」** とはリモートリポジトリをローカルにダウンロードすることです。
+
+#### コマンド
+
+```
+$ git clone git@github.com:sccp2020/prac_pr.git
+```
+
 ### ブランチ切って変更を加える
+
+「prac/s12XXXXX」というブランチを作り、そこで
+
+**「`s12XXXXX.txt` というファイルに `Hello, World!` を 1000 行書いて」** push してください。
+
+> s12XXXXX の部分は自分の学籍を書いてください
 
 ### プルリク出す
 
-### (merge してもらう)
+以下の手順で進めてください。  
+赤い枠のボタンを押して行ってください。
+
+![](https://i.imgur.com/dAIgdX8.png)
+![](https://i.imgur.com/Le2djOI.png)
+![](https://i.imgur.com/TzpxF4T.png)
+
+### merge してもらう
+
+TA がマージしていきます。
 
 ### 演習 2
 
@@ -99,14 +124,13 @@ $ git push origin master
 
 最後の演習は！
 
-`helloworld.txt` というファイルに `Hello, World!` を 1000 行出力して、
+1. `id.txt` というファイルに **自分の学籍番号** 追加してください。
+2. [prac-pr](https://github.com/sccp2020/prac_pr) にプルリクを出してください。
 
-[url] のリポジトリにプルリクを出してください。
+#### 注意点
 
-注意点
-
-1. ブランチ名は、`s12XXXXX/hello` にすること。
-2. `helloworld.txt` を作る方法は何を使っても構わない。
+1. ブランチ名は、`fix/s12XXXXX` にすること。
+2. すでに記入している `id.txt` の中身は変更しないでください。
 3. 一番初めの人以外は全員 `git pull` をしないと怒られるでしょう(理由は後で説明します)。
 
 ![](https://i.imgur.com/OIlUNld.png)
